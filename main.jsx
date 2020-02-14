@@ -1,13 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import AboutMe from './components/AboutMe';
-import CoderRequirements from './components/CoderRequirements';
+import App from './components/App';
 
 ReactDOM.render(
-    <div>
-        <h1>Hello</h1>
-        <AboutMe />
-        <CoderRequirements />
-    </div>, document.getElementById('root'),
+    <App />, document.getElementById('root'),
 );
