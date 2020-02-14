@@ -1,16 +1,14 @@
 import React from 'react';
 
 import AppHeader from './AppHeader';
-import AboutMe from './AboutMe';
-import CoderRequirements from './CoderRequirements';
+import MainContent from './MainContent';
 import AppFooter from './AppFooter';
 
 function App() {
     return (
         <div>
             <AppHeader />
-            <AboutMe />
-            <CoderRequirements />
+            <MainContent />
             <AppFooter />
         </div>
     );

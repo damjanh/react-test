@@ -2,7 +2,9 @@ import React from 'react';
 
 function AppHeader() {
     return (
-        <h1>Hello</h1>
+        <header>
+            <h1>Hello</h1>
+        </header>
     );
 }
 
