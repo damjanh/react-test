@@ -10,14 +10,8 @@ function MainContent() {
         <main>
             <AboutMe />
             <CoderRequirements />
-            <div className="todo-list">
-                <h4>TODO:</h4>
-                <TodoList />
-            </div>
-            <div className="contacts-list">
-                <h4>Contacts:</h4>
-                <ContactsList />
-            </div>
+            <TodoList />
+            <ContactsList />
         </main>
     );
 }
