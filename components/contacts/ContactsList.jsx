@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactCard from './ContactCard';
-import contactsData from '../data/contactsData';
+import contactsData from '../../data/contactsData';
 
 const ContactsList = () => {
     const contactItems = contactsData.map((contact, index) => (

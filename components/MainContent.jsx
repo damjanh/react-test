@@ -2,8 +2,8 @@ import React from 'react';
 
 import AboutMe from './AboutMe';
 import CoderRequirements from './CoderRequirements';
-import TodoList from './TodoList';
-import ContactsList from './ContactsList';
+import TodoList from './todo/TodoList';
+import ContactsList from './contacts/ContactsList';
 
 function MainContent() {
     return (
