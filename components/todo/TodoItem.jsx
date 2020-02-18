@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const TodoItem = (
-    { todo },
+    { todo, handleChange },
 ) => (
     <div className="todo-item">
-        <input type="checkbox" checked={todo.completed} readOnly />
+        <input type="checkbox" checked={todo.completed} onChange={() => handleChange(todo.id)} />
         <p>
             {todo.text}
         </p>
@@ -14,6 +14,7 @@ const TodoItem = (
 
 TodoItem.propTypes = {
     todo: PropTypes.objectOf(PropTypes.any).isRequired,
+    handleChange: PropTypes.func.isRequired,
 };
 
 export default TodoItem;
