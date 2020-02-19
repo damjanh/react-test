@@ -20,7 +20,7 @@ class LoginIndicator extends React.Component {
         const buttonText = loggedIn ? 'Log out' : 'Log in';
         const displayText = loggedIn ? 'Logged In' : 'Logged Out';
         return (
-            <div className="login-indicator">
+            <div className="centered-with-margin">
                 <h3>
                     {displayText}
                 </h3>

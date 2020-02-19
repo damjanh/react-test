@@ -18,7 +18,7 @@ class Counter extends React.Component {
     render() {
         const { count } = this.state;
         return (
-            <div className="counter">
+            <div className="centered-with-margin">
                 <h2>
                     Counter:
                 </h2>

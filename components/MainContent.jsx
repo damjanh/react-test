@@ -6,6 +6,7 @@ import TodoList from './todo/TodoList';
 import ContactsList from './contacts/ContactsList';
 import Counter from './counter/Counter';
 import LoginIndicator from './LoginIndicator';
+import FavoriteMovieChar from './favorite-movie-char/FavoriteMovieChar';
 
 function MainContent() {
     return (
@@ -16,6 +17,7 @@ function MainContent() {
             <ContactsList />
             <Counter />
             <LoginIndicator />
+            <FavoriteMovieChar />
         </main>
     );
 }

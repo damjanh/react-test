@@ -85,14 +85,7 @@ input[type=checkbox] {
     color: #333
 }
 
-.counter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 100px;
-}
-
-.login-indicator {
+.centered-with-margin {
     display: flex;
     flex-direction: column;
     align-items: center;
