@@ -5,6 +5,7 @@ import CoderRequirements from './CoderRequirements';
 import TodoList from './todo/TodoList';
 import ContactsList from './contacts/ContactsList';
 import Counter from './counter/Counter';
+import LoginIndicator from './LoginIndicator';
 
 function MainContent() {
     return (
@@ -14,6 +15,7 @@ function MainContent() {
             <TodoList />
             <ContactsList />
             <Counter />
+            <LoginIndicator />
         </main>
     );
 }
