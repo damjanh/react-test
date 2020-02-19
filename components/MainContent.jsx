@@ -7,6 +7,7 @@ import ContactsList from './contacts/ContactsList';
 import Counter from './counter/Counter';
 import LoginIndicator from './LoginIndicator';
 import FavoriteMovieChar from './favorite-movie-char/FavoriteMovieChar';
+import Input from './input/Input';
 
 function MainContent() {
     return (
@@ -18,6 +19,7 @@ function MainContent() {
             <Counter />
             <LoginIndicator />
             <FavoriteMovieChar />
+            <Input />
         </main>
     );
 }
