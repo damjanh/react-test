@@ -8,6 +8,7 @@ import Counter from './counter/Counter';
 import LoginIndicator from './LoginIndicator';
 import FavoriteMovieChar from './favorite-movie-char/FavoriteMovieChar';
 import Input from './input/Input';
+import UserInfo from './input/UserInfo';
 
 function MainContent() {
     return (
@@ -20,6 +21,7 @@ function MainContent() {
             <LoginIndicator />
             <FavoriteMovieChar />
             <Input />
+            <UserInfo />
         </main>
     );
 }
