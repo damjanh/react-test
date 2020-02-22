@@ -1,2 +1,2 @@
 # react-test
-ReactJS playground
+A playground for checking out React features.
