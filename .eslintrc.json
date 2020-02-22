@@ -22,6 +22,8 @@
     "react"
   ],
   "rules": {
+    // Ignore line break style
+    "linebreak-style": 0,
     // Indent with 4 spaces
     "indent": ["error", 4],
     // Indent JSX with 4 spaces
