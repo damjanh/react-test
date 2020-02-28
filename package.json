@@ -8,7 +8,7 @@
     "clean": "rm -rf node_modules",
     "build": "webpack --mode production",
     "test": "jest",
-    "lint": "eslint -c .eslintrc.json /**/*.js /**/*.jsx"
+    "lint": "eslint -c .eslintrc.json main.jsx components/**/*.{js,jsx} data/**/*.{js,jsx}"
   },
   "author": "damjanh",
   "license": "ISC",
